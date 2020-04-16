@@ -34,7 +34,7 @@
 	}
 
 	.name{
-		font-size: 50px;
+		font-size: 37px;
 		    line-height: 60px;
 	}
 
@@ -47,6 +47,7 @@
 
 	.companyname, .companyyears{
 		float: unset;
+		font-size: 14px;
 	}
 
 	.designation{
@@ -73,7 +74,7 @@
 	.footersmall{
 		display: block;
 	}
-}
+
 
 .section-content{
 	
@@ -83,4 +84,17 @@
 .companydetails{
 	
 	width: 85%;
+	font-size: 14px ;
+}
+
+.companydesignation{
+	
+	font-size: 14px ;
+}
+
+.section-content{
+	
+	font-size: 14px;
+}
+
 }
