@@ -1,0 +1,31 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.topbar{
+	  	padding: 15px 0px;
+	}
+
+  .container{
+	width: 100%;
+   }
+  .hideitem{
+  	display: none;
+  }
+
+	.intro{
+		background-size: 60%;
+	}
+
+	.introrow{
+		top: 30%;
+		position: absolute;
+    	left: 50%;
+	    transform: translate(-50%, -50%);
+
+	}
+
+	.imageclass{
+		width: 233px;
+		height: 175px;
+	}
+
+}

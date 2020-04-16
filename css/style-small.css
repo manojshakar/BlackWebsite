@@ -1,0 +1,67 @@
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+
+	.topbar{
+	  	padding: 15px 0px;
+	}
+
+	.grid{
+		/*display: none;*/
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+
+  .container{
+	width: 100%;
+   }
+  .hideitem{
+  	display: none;
+  }
+
+	.intro{
+		background-size: 80%;
+	}
+
+	.introrow{
+		top: 30%;
+		position: absolute;
+    	left: 50%;
+	    transform: translate(-50%, -50%);
+
+	}
+
+	.name{
+		font-size: 65px;
+	}
+
+	.companydet{
+		display: block;
+		position: relative;
+		float: left;
+		padding-top: 0px;
+	}
+
+	.companyname, .companyyears{
+		float: unset;
+	}
+
+	.scrollmore{
+		left: 76%;
+	}
+
+	.imageclass{
+		width: 200px;
+		height: 150px;
+	}
+	.hideimg{
+		display: none;
+	}
+
+	.footerlarge{
+		display: none;
+	}
+
+	.footersmall{
+		display: block;
+	}
+
+}

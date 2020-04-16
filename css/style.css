@@ -1,0 +1,379 @@
+@font-face {
+  font-family: sfpro;
+  src: url(../fonts/FontsFree-Net-SFProText-Regular.ttf);
+}
+@font-face {
+  font-family: sfprobold;
+  src: url(../fonts/SFProText-Bold.ttf);
+}
+@font-face {
+  font-family: sfprosemibold;
+  src: url(../fonts/SFProText-SemiBold.ttf);
+}
+
+@font-face{
+	font-family: bebas;
+	src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+body{
+	background-color: white;
+	font-family: "sfpro";
+	color: black;
+	-webkit-transition: all 1s ease; 
+	-moz-transition: all 1s ease; 
+	transition: all 1s ease;
+	background-size: 200% 100%; 
+	background-position: 100% 0; 
+	background-color: #14141A;
+}
+
+.gradcolor{
+	background-color: transparent;
+	background-image: linear-gradient(to left, transparent 50%, rgba(20,20,26,1) 50%);
+}
+
+.bgcolor{
+	/*background-color: #14141A;*/
+  background-position: 0 0;
+}
+.bgcolor1{
+	background-color: #14141A;
+}
+
+.container-fluid{
+	padding: 0px 50px;
+}
+
+.container{
+	width: 1440px;
+}
+
+.grid{
+	z-index: -1;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 100vh;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-right: 120px;
+	margin-left: 120px;
+	padding-left: 0px;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.gridline{
+	width: 1px;
+	height: 100vh;
+	background-color: rgba(33, 33, 44, 1);
+
+	-webkit-transition: all 1s ease; 
+	-moz-transition: all 1s ease; 
+	transition: all 1s ease;
+
+	margin-top: 1000px;
+}
+
+.gridlineanim{
+	margin-top: 0px;
+}
+
+.topbar{
+	display: block;
+	position: fixed;
+	z-index: 100;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+  	padding: 50px 0px 15px 0px;
+
+	-webkit-transition: all 1s ease; 
+	-moz-transition: all 1s ease; 
+	transition: all 1s ease;
+	background-size: 200% 100%; 
+	background-position: 100% 0; 
+	background-color: transparent;
+}
+
+.logo{
+	width: 70px;
+	height: 12px;
+}
+
+.menu{
+	overflow: hidden;
+}
+
+.menuitem{
+	font-family: "sfpro";
+	color: #686868;
+}
+
+.menuitem:hover{
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.active{
+	color: #FFFFFF;
+}
+
+.activechar{
+	border-bottom: 1px solid #FF0053;
+}
+
+
+.content{
+	/*height: 100vh;*/
+	overflow: hidden;
+}
+
+.intro{
+	background-position: center bottom;
+	transition: opacity 0.2s ease-out, transform 0.2s;
+	background-repeat: no-repeat;
+	background-size: 45%;
+	opacity: 0;
+	background-image: url("../images/face.png");
+}
+
+.introbg{
+	opacity: 1;
+}
+
+.introrow{
+	display: block;
+	position: absolute;
+	top: 45%;
+}
+
+.namesection{
+	display: table-cell;
+    vertical-align: middle;
+}
+
+.name{
+	font-family: "bebas";
+	font-size: 70px;
+	color: #FF0053;
+	line-height: 100px;
+	overflow: hidden;
+}
+
+.designation{
+	font-family: "sfpro";
+	font-size: 24px;
+	color: #FF0053;
+	line-height: 26px;
+	overflow: hidden;
+}
+
+.hold{
+	transform: translateY(100px)
+}
+
+.moveupanim{
+	transform: translateY(0px);
+	transition: opacity 0.5s ease-out, transform 0.5s;
+}
+
+.scrollmore{
+	display: block;
+	position: absolute;
+	bottom: 2%;
+	left: 90%;
+}
+
+.scrollmore svg{
+	width: 80px;
+	height: 31px;
+}
+
+.heading{
+	font-family: "bebas";
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #FF0053;
+}
+
+.section-content{
+	font-family: "sfpro";
+	font-size: 16px;
+	color: #a0a0a0;
+	line-height: 32px;
+	width: 70%;
+}
+
+.section-content b{
+	font-family: "sfprobold"
+}
+
+.contentsection{
+	margin: 40px auto 40px auto;
+}
+
+.companysection{
+	margin-top: 40px;
+}
+
+
+.companyrow{
+	display: block;
+	width: 100%;
+}
+
+.companyicon, .companyname, .companyyears{
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.companyicon{
+	height: 40px;
+	width: 40px;
+}
+
+.companydet{
+	padding-top: 5px;
+}
+
+.companyname{
+	font-family: "sfpro";
+	font-size: 20px;
+	color: #FFFFFF;
+	padding-left: 10px;
+}
+
+.companyyears{
+	font-family: "sfpro";
+	font-size: 16px;
+	color: #C1C1C1;
+	padding: 4px 0px 0px 10px;
+}
+
+.companydesignation{
+	font-family: "sfprosemibold";
+	font-size: 18px;
+	color: #C1C1C1;
+	margin-top: 20px;
+}
+
+.companydetails{
+	font-family: "sfpro";
+	font-size: 16px;
+	line-height: 30px;
+	color: #a0a0a0;
+	margin-top: 20px;
+	width: 70%;
+}
+
+.cvholder{
+	margin: 70px 0px;
+}
+
+.downloadcv{
+	width: 238px;
+	height: 81px;
+	padding: 20px;
+}
+
+.downloadcv:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #FFFFFF;
+}
+
+.imagerow{
+	margin-top: 50px;
+}
+
+.imagerow img:hover{
+	/*box-shadow: 3px 3px 7px 0px rgba(255,255,255,1);*/
+	transition-duration: 0.5s;
+}
+
+.imageclass{
+	width: 333px;
+	height: 250px;
+	margin-bottom: 15px;
+}
+
+.fillpink{
+	background-color: #FF0053;
+	border-radius: 8px;
+	border: 0px solid black;
+	font-family: "bebas";
+	letter-spacing: 2px;	
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+a.nohover{
+	text-decoration: none;
+}
+
+.alignc{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.more{
+	font-size: 30px;
+	letter-spacing: 4px;
+}
+
+.footerlarge{
+	margin: 100px 0px 50px 0px;
+    border-top: 1px solid rgba(204, 204, 204, 0.2);
+    padding: 10px 50px;
+}
+.footersmall{
+	margin: 50px 0px;
+}
+
+.namefooter{
+	display: block;
+	position: relative;
+	float: left;
+	letter-spacing: 0px;
+	font-family: "sfpro";
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+.iconfooter{
+	display: block;
+	position: relative;
+	float: right;
+}
+
+.footericon{
+	height: 24px;
+	width: 24px;
+}
+
+.footersmall{
+	display: none;
+}
+
+.namefootersmall{
+	letter-spacing: 0px;
+	font-family: "sfpro";
+	color: #FFFFFF;
+	font-size: 12px;
+}
